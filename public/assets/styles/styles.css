@@ -173,3 +173,47 @@ ul.grid{
     justify-content: center;
 }
 
+/* Services Section */
+
+.services{
+    background-color: #ffffff;
+
+}
+
+.services .grid li{
+    flex-basis: 24%;
+    text-align: center;
+    padding: 70px;
+
+}
+
+.services .grid li i{
+    font-size: 80px;
+    color: #222222;
+    margin-bottom: 25px;
+}
+
+.services .grid li h4{
+    color: #FF8A05;
+    font: bold 32px 'Maven Pro';
+    margin-bottom: 25px;
+}
+
+.services .grid li p{
+    margin: 0;
+}
+
+
+.services h4{
+    font-size: 20px;
+    color: #FF8A05;
+    padding: 10px;
+    text-align: center;
+}
+
+.services h1{
+    font-size: 40px;
+    color: black;
+    padding: 1px;
+    text-align: center;
+}
