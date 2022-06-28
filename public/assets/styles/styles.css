@@ -13,6 +13,7 @@
 
 html{
     font: normal 16px sans-serif;
+    font-family: "Maven Pro";
     color: #666;
     scroll-behavior: smooth !important;
 }
