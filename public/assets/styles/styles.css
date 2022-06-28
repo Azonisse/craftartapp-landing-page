@@ -1,5 +1,9 @@
+/* Common Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+
+/* General Common Styles */
 
 * {
     margin: 0;
@@ -13,45 +17,49 @@ html{
     scroll-behavior: smooth !important;
 }
 
-hr {
-    width: 150px;
-    height: 2px;
-    background-color: #2196f3;
-    border: 0;
-    margin-bottom: 80px;
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 125px 100px;
-}
-
-
-
 /*Utilities*/
 img{
     max-width: 100%;
 }
 
+.check {
+    position: relative;
+    width: 50px;
+}
 
+.check:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background:#333;
+    border-radius: 25px;
+}
 
-/* Navegation Section*/
-
-.container{
-    width: 100%;
-    min-height: 100vh;
-    padding-left: 8%;
-    padding-right: 8%;
+.check:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
     box-sizing: border-box;
-    overflow: hidden;
 }
-.navbar{
-    width: 100%;
-    display: flex;
-    align-items: center;
+
+.check:checked:after {
+    left: 25px;
+    border: 2px solid #FF8A05;
 }
+
+.check:checked:before {
+    background: #FF8A05;
+}
+
+
+
+/**/
 
 nav,ul{
     flex: 1;
@@ -83,7 +91,6 @@ nav ul li a:hover{
 }
 
 
-/* Main Page(class "row") Section*/
 
 .row{
     display: flex;
@@ -129,18 +136,36 @@ button{
 }
 
 
-/*Supports Section*/
 
-.supports{
-    background-color: #ffffff;
+/**/
 
+
+
+hr {
+    width: 150px;
+    height: 2px;
+    background-color: #2196f3;
+    border: 0;
+    margin-bottom: 80px;
 }
 
-.supports .grid li{
-    flex-basis: 20%;
-    text-align: center;
-    padding: 30px;
-    text-align: center;
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 100px;
+}
+
+@media(max-width: 1000px){
+    section{
+        padding: 100px 50px;
+    }
+}
+
+@media(max-width: 600px){
+    section{
+        padding: 80px 30px;
+    }
 }
 
 section h3.title{
@@ -151,12 +176,6 @@ section h3.title{
     text-align: center;
 }
 
-.supports h4{
-    font-size: 20px;
-    color: #BDBDBD;
-    padding: 10px;
-    text-align: center;
-}
 
 section p{
     max-width: 800px;
@@ -173,8 +192,72 @@ ul.grid{
     justify-content: center;
 }
 
-/* Services Section */
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0;
+}
 
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* Support Section*/
+
+
+.supports{
+    background-color: #ffffff;
+
+}
+
+.supports .grid li{
+    flex-basis: 20%;
+    text-align: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.supports h4{
+    font-size: 20px;
+    color: #BDBDBD;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 1349px){
+    .supports .grid li{
+        flex-basis: 40%;
+        padding: 30px;
+    }
+    .supports .grid li:last-child{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .supports .grid li{
+        flex-basis: 60%;
+    }
+}
+
+
+/* Services section */
 .services{
     background-color: #ffffff;
 
@@ -218,8 +301,27 @@ ul.grid{
     text-align: center;
 }
 
+@media (max-width: 1000px){
+    .services .grid li{
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+    .services .grid li:last-child{
+        margin-bottom: 0;
+    }
+}
 
-/* Our Community Section*/
+@media (max-width: 600px){
+    .services .grid li{
+        flex-basis: 100%;
+    }
+}
+
+
+
+
+
+/* OurCommunity Section */
 
 .WR_family{
     display: block;
@@ -246,7 +348,18 @@ ul.grid{
     text-align: center;
 }
 
+
+
+/* media */
 @media only screen and (max-width:700px){
+    nav ul{
+        width: 100%;
+        background: #FF8A05;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
 
     nav ul li{
         display: block;
@@ -256,7 +369,12 @@ ul.grid{
     nav ul li a{
         color: white;
     }
-
+    .menu-icon{
+        display: block;
+    }
+    .WR_family{
+        display: none;
+    }
 
     .comment_artesan{
         display: block;
@@ -265,6 +383,10 @@ ul.grid{
         display: block;
     }
 
+    #lista_menu{
+        overflow: hidden;
+        transition: 0.5s;
+    }
 
     .row{
         flex-direction: column-reverse;
@@ -291,5 +413,18 @@ ul.grid{
 
 }
 
+/*Trending Products*/
 
-/*Trending Handicrafts*/
+.trending_products h4{
+    font-size: 20px;
+    color: #FF8A05;
+    padding: 10px;
+    text-align: center;
+}
+
+.trending_products h1{
+    font-size: 40px;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
