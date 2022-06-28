@@ -66,5 +66,50 @@ nav ul li a:hover{
 }
 
 
+/* Main Page(class "row") Section*/
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.colm-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.colm-1 h2{
+    font: bold 50px 'Maven Pro', san-serif;
+    margin: 20px 0 10px;
+    color: black;
+}
+.colm-1 p{
+    font: bold 20px 'Maven Pro', san-serif;
+    color: #BDBDBD;
+    margin: 40px 0;
+}
+
+button{
+    width: 240px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: white;
+    background-color: #FF8A05;
+    border-radius: 30px;
+    cursor: pointer;
+    font: semi-condensed 24px 'Maven Pro', san-serif;
+}
+
+.colm-2{
+
+}
+.colm-2 .artesano_with_mate{
+    width: 100%;
+}
+
 
 
