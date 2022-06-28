@@ -715,7 +715,6 @@ ul.grid{
     }
 
     .item h4 {
-        padding-right: 20%;
         padding-bottom: 40px;
         width: auto;
         margin-top: -50px;
@@ -728,12 +727,12 @@ ul.grid{
     }
 
     .containMain2-2 h3 {
-        margin-left: -40%;
+        margin-left: -30%;
         margin-top: 40px;
     }
 
     .containMain2-2 h5 {
-        margin-left: -40%;
+        margin-left: -30%;
     }
 
     .circle {
@@ -755,6 +754,10 @@ ul.grid{
         padding: 0% 3%;
         justify-content: center;
         align-content: center;
+    }
+
+    .punctuation ul1 {
+        margin-left: -1%;
     }
 }
 
