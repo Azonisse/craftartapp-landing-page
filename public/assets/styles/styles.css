@@ -1,2 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: normal 16px sans-serif;
+    color: #666;
+    scroll-behavior: smooth !important;
+}
+
+/*Utilities*/
+img{
+    max-width: 100%;
+}
+
+
+
+/* Navegation Section*/
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav,ul{
+    flex: 1;
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li{
+
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font: bold 20px 'Maven Pro', san-serif;
+}
+
+
+nav ul li a:hover{
+    color: #FF8A05;
+}
+
+.navbar span{
+    font: bold 20px 'Maven Pro', san-serif;
+    color: black;
+    margin-top: 20px;
+}
+
+
+/* Main Page(class "row") Section*/
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.colm-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.colm-1 h2{
+    font: bold 50px 'Maven Pro', san-serif;
+    margin: 20px 0 10px;
+    color: black;
+}
+.colm-1 p{
+    font: bold 20px 'Maven Pro', san-serif;
+    color: #BDBDBD;
+    margin: 40px 0;
+}
+
+button{
+    width: 240px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: white;
+    background-color: #FF8A05;
+    border-radius: 30px;
+    cursor: pointer;
+    font: semi-condensed 24px 'Maven Pro', san-serif;
+}
+
+.colm-2{
+
+}
+.colm-2 .artesano_with_mate{
+    width: 100%;
+}
+
+
+
