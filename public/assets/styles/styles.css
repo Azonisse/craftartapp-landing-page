@@ -682,3 +682,78 @@ ul.grid{
 .item2 ul {
     padding-left: 20px;
 }
+
+/*Call to action responsive*/
+@media screen and (max-width: 1150px) {
+    .containerHeader {
+        margin-top: 20px;
+        height: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containMain {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .rectangle img {
+        max-width: 95%;
+        padding-top: 10%;
+        padding-left: 16%;
+        border-radius: 16px;
+    }
+
+    .rectangle {
+        width: 450px;
+        height: 550px;
+        background: #FF8A05;
+        border-radius: 16px;
+    }
+
+    .item h4 {
+        padding-right: 20%;
+        padding-bottom: 40px;
+        width: auto;
+        margin-top: -50px;
+    }
+
+    .container-1-1 {
+        max-width: 1100px;
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .containMain2-2 h3 {
+        margin-left: -40%;
+        margin-top: 40px;
+    }
+
+    .containMain2-2 h5 {
+        margin-left: -40%;
+    }
+
+    .circle {
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-left: 20%;
+    }
+
+    .p1 p {
+        margin-top: 20px;
+        width: 75%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .containMain p {
+        padding: 0% 3%;
+        justify-content: center;
+        align-content: center;
+    }
+}
