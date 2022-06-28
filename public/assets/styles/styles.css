@@ -428,3 +428,275 @@ ul.grid{
     padding: 30px;
     text-align: center;
 }
+
+/* Craftsman Product Presentation Style */
+.rectangle img {
+    max-width: 96%;
+    padding-top: 18%;
+    padding-left: 10%;
+    border-radius: 16px;
+}
+
+.rectangle {
+    width: 400px;
+    height: 550px;
+    left: 198px;
+    top: 3421px;
+    background: #FF8A05;
+    border-radius: 16px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.container-1-1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.container-1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.containMain2-2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    align-content: center;
+}
+
+.containerHeader {
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containMain {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    gap: 8rem;
+}
+
+.item h4 {
+    margin-top: 80px;
+    width: 310px;
+    height: 16px;
+    left: 731px;
+    top: 3500px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: #FF8A05;
+}
+
+.item h3 {
+    margin-top: 30px;
+    margin-left: -190px;
+}
+
+.item h5 {
+    margin-left: -190px;
+    color: #B7B4B4
+}
+
+.item h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 618px;
+    height: 62px;
+    left: 760px;
+    top: 3553px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #222224;
+}
+
+.punctuation ul1 {
+    color: #FF8A05;
+    margin-left: 40px;
+}
+
+.punctuation p {
+    margin-right: 80%;
+}
+
+.punctuation {
+    padding-bottom: 20px;
+}
+
+/*Call to action style*/
+.containMain2-1 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    align-content: center;
+}
+
+.containMain3 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: auto;
+}
+
+.containerHeader2 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-color: #FF8A05;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 78%;
+}
+
+.searcher {
+    padding: 25px 0px;
+}
+
+.searcher input{
+    width: 400px;
+    height: 40px;
+    padding: 20px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    border-color: transparent;
+}
+
+.containerButton {
+    padding: 20px 40px;
+    display: inherit;
+    align-items: center;
+
+}
+
+.containerButton button {
+    cursor: pointer;
+    width: 5rem;
+    height: 3rem;
+    font-style: normal;
+    letter-spacing: 0.01em;
+    background-color: #222224;
+    font-size: 14px;
+    font-family: "Maven Pro";
+    border-radius: 12px;
+    border-color: transparent;
+    color: white;
+}
+
+.title1 {
+    margin-top: 80px;
+}
+
+.space img {
+    width: 400px;
+    align-content: center;
+    justify-content: center;
+}
+
+/*Footer Style*/
+.containerHeader3 {
+    height: 50vh;
+    display: flex;
+    background-color: #222224;
+    justify-content: center;
+    align-items: center;
+}
+.containerMain4 {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: auto;
+}
+
+.container3 {
+    color: white;
+    max-width: 1100px;
+    margin-left: 400px;
+    width: 90%;
+    font-size: 10px;
+}
+
+.container5 {
+    max-width: 1100px;
+    margin-bottom: 90px;
+    width: 95%;
+}
+
+.ColorText h3 {
+    width: 160px;
+    color: white;
+    font-size: 16px;
+    margin-left: 7px;
+}
+
+.ColorText h4 {
+    color: #FF8A05;
+    font-size: 24px;
+    pading: 10px 10px;
+}
+
+.ColorText li {
+    margin-top: 5px;
+    padding: 0px 10px;
+    color: #E2E2E2;
+}
+
+.TextDetail {
+    width: 300px;
+}
+
+.sizeIcon {
+    margin-right: 60px;
+    width: 15px;
+    height: 40px;
+}
+
+.position {
+    font-size: 10px;
+    color: white;
+}
+
+.containerHeader4 {
+    height: 4vh;
+    display: flex;
+    background-color: #222224;
+    justify-content: center;
+    align-items: center;
+}
+
+.ColorText h1 {
+    color: white;
+}
+
+.ColorText p {
+    color: white;
+}
+
+.item2 {
+    padding-top: 50px;
+}
+
+.item2 li:first-child {
+    margin-top: 20px;
+}
+
+.item2 ul {
+    padding-left: 20px;
+}
