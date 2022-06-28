@@ -428,3 +428,116 @@ ul.grid{
     padding: 30px;
     text-align: center;
 }
+
+/*Craftsman Product Presentation Style*/
+.rectangle img {
+    max-width: 96%;
+    padding-top: 18%;
+    padding-left: 10%;
+    border-radius: 16px;
+}
+
+.rectangle {
+    width: 400px;
+    height: 550px;
+    left: 198px;
+    top: 3421px;
+    background: #FF8A05;
+    border-radius: 16px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.container-1 {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.containMain2-2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    align-content: center;
+}
+
+.containerHeader {
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containMain {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    gap: 8rem;
+}
+
+.item h4 {
+    margin-top: 80px;
+    width: 310px;
+    height: 16px;
+    left: 731px;
+    top: 3500px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: #FF8A05;
+}
+
+.item h3 {
+    margin-top: 30px;
+    margin-left: -190px;
+}
+
+.item h5 {
+    margin-left: -190px;
+    color: #B7B4B4
+}
+
+.item h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 618px;
+    height: 62px;
+    left: 760px;
+    top: 3553px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    color: #222224;
+}
+
+.item p{
+    margin-top: 20px;
+}
+
+.punctuation ul1 {
+    color: #FF8A05;
+}
+
+.punctuation p {
+    margin-right: 80%;
+    margin-top: 20px;
+}
+
+.punctuation {
+    padding-bottom: 20px;
+}
