@@ -757,3 +757,106 @@ ul.grid{
         align-content: center;
     }
 }
+
+/*Call-To-Action Responsive*/
+@media screen and (max-width:1140px) {
+    .containerHeader2 {
+        height: auto;
+        display: flex;
+        background-color: #FF8A05;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containMain3 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .containMain2 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        height: 100%;
+        align-content: center;
+    }
+
+    .containMain2-3 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        height: 100%;
+        align-content: center;
+    }
+
+    .containMain2-1 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        height: 100%;
+        align-content: center;
+    }
+
+    .space img {
+        width: 400px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .item h1{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        margin-top: -20px;
+    }
+
+    .item p {
+        width: auto;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .searcher {
+        padding-left: 40%;
+    }
+
+    .searcher input{
+        width: 135%;
+        height: 40px;
+        font-size: 16px;
+        border-radius: 12px;
+        border-color: transparent;
+    }
+
+    .containerButton {
+        padding-left: 25%;
+    }
+
+    .containMain2-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .punctuation ul1 {
+        color: #FF8A05;
+        padding-left: 7%;
+    }
+
+    .punctuation {
+        padding-bottom: 20px;
+    }
+
+    .punctuation p {
+        padding-left: 3%;
+    }
+}
