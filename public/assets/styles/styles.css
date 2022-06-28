@@ -683,6 +683,10 @@ ul.grid{
     padding-left: 20px;
 }
 
+.item2 ul li a{
+    color: #E2E2E2;
+}
+
 /*Call to action responsive*/
 @media screen and (max-width: 1150px) {
     .containerHeader {
