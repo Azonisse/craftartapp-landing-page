@@ -217,3 +217,79 @@ ul.grid{
     padding: 1px;
     text-align: center;
 }
+
+
+/* Our Community Section*/
+
+.WR_family{
+    display: block;
+}
+
+.comment_artesan{
+    display: none;
+}
+.comment_user{
+    display: none;
+}
+
+.community h4{
+    font-size: 20px;
+    color: #FF8A05;
+    padding: 10px;
+    text-align: center;
+}
+
+.community h1{
+    font-size: 40px;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width:700px){
+
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: white;
+    }
+
+
+    .comment_artesan{
+        display: block;
+    }
+    .comment_user{
+        display: block;
+    }
+
+
+    .row{
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+    .colm-2{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .colm-2 .artesano_with_mate{
+        width: 100%;
+    }
+
+    .colm-1{
+        flex-basis: 100%;
+    }
+    .colm-1 h2{
+        font-size: 35px;
+    }
+
+    .colm-1 p{
+        font-size: 35px;
+    }
+
+}
+
+
+/*Trending Handicrafts*/
