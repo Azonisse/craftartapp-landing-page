@@ -593,6 +593,26 @@ ul.grid{
     justify-content: center;
 }
 
+
+
+/* About the prooduct*/
+
+.about_product{
+    text-align:  center;
+    align-content: center;
+    justify-content:  center;
+    padding-bottom: 20%;
+}
+
+.about_product h1{
+    font-size: 40px;
+    color: #FF8A05;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+
+
 /*Footer Style*/
 .containerHeader3 {
     height: 50vh;
